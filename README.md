@@ -19,10 +19,12 @@ pip install moviepy
 1. Place your video files in a directory named `videos` in the same directory as the script.
 2. Create a CSV file named `annotation.csv` in the same directory as the script. The CSV file should have the following format:
 
+```
 filename,start_time,end_time
 video1.mp4,00:01:00,00:02:00
 video2.mp4,00:05:00,00:06:00
 …
+```
 
 Each row represents a video file and the start and end times for the segment to extract. The times should be in the format `HH:MM:SS`.
 
